@@ -4,7 +4,7 @@ body{
 
 #body-header{
 	height: 65vh;
-	background-image: url(thumbnails-14_thumb.png) ;
+	background-image: url(photos/thumbnails-14_thumb.png) ;
 	background-position: center;
 	background-size: cover;
 	opacity: 1.0;
