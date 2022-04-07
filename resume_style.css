@@ -30,6 +30,11 @@ body{
 		right: 5%;
 		transform: scale(2);
 	}
+	.align p{
+		margin-left: 20px !important;
+   margin-right: 20px !important;
+     font-size: 100% !important;
+	}
 }
 
 .horizontal{
