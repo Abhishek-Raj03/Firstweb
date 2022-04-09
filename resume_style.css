@@ -252,8 +252,6 @@ section:nth-child(2n+1){
 }
 /*.contact-box{
 	position: relative;
-	/*top: 10%;
-	left: 10%;*/
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
