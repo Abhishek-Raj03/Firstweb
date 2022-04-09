@@ -13,7 +13,7 @@ body{
 .burger{
 	display: none;
 }
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){
 	
     nav{
 		height: 72px;
@@ -36,6 +36,7 @@ body{
      font-size: 100% !important;
 	}
 }
+*/
 
 .horizontal{
 	list-style: none; 
@@ -249,7 +250,7 @@ section:nth-child(2n+1){
 #contact{
 	background-image: linear-gradient(to top right,darkslateblue,darkslategrey);
 }
-.contact-box{
+/*.contact-box{
 	position: relative;
 	/*top: 10%;
 	left: 10%;*/
@@ -275,7 +276,25 @@ section:nth-child(2n+1){
     left: 10%;
     top: -20%;
     overflow-wrap: break-word;
+}*/
+.contact-box{
+	display: flex;
+	height: 80vh;
+	width: 90vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
+.contact-box-1{
+	height: 100%;
+	width: 40%;
+}
+.contact-box-2{
+	height: 100%;
+	width: 40%;
+	overflow-wrap: break-word;
+}
+
 .contact-box-2 p{
 	text-align: justify;
 }
