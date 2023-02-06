@@ -4,7 +4,7 @@ body{
 
 #body-header{
 	height: 65vh;
-	background-image: url(thumbnails-14_thumb.png) ;
+	background-image: url(photos/thumbnails-14_thumb.png) ;
 	background-position: center;
 	background-size: cover;
 	opacity: 1.0;
@@ -13,8 +13,8 @@ body{
 .burger{
 	display: none;
 }
-@media screen and (max-width: 600px){
-	
+ @media screen and (max-width: 600px){
+	/*
     nav{
 		height: 72px;
 	}
@@ -30,7 +30,13 @@ body{
 		right: 5%;
 		transform: scale(2);
 	}
-}
+	*/
+	.align p{
+		margin-left: 20px !important;
+   margin-right: 20px !important;
+     font-size: 100% !important;
+	}
+} 
 
 .horizontal{
 	list-style: none; 
@@ -244,10 +250,8 @@ section:nth-child(2n+1){
 #contact{
 	background-image: linear-gradient(to top right,darkslateblue,darkslategrey);
 }
-.contact-box{
+/* .contact-box{
 	position: relative;
-	/*top: 10%;
-	left: 10%;*/
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -256,7 +260,7 @@ section:nth-child(2n+1){
 
 }
 .contact-box-1{
-
+    
 	position: relative;
 	width: 40%;
 	min-height: 300px;
@@ -270,7 +274,25 @@ section:nth-child(2n+1){
     left: 10%;
     top: -20%;
     overflow-wrap: break-word;
+} */
+.contact-box{
+	display: flex;
+	height: 80vh;
+	width: 90vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
+.contact-box-1{
+	height: 100%;
+	width: 30%;
+}
+.contact-box-2{
+	height: 100%;
+	width: 40%;
+	overflow-wrap: break-word;
+}
+
 .contact-box-2 p{
 	text-align: justify;
 }
