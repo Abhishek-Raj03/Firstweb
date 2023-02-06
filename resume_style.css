@@ -13,7 +13,11 @@ body{
 .burger{
 	display: none;
 }
+<<<<<<< HEAD
  @media screen and (max-width: 600px){
+=======
+@media screen and (max-width: 600px){
+>>>>>>> 6b1cec02d127db5f8c3cfad1d6d4ed0c3e94b1a6
 	/*
     nav{
 		height: 72px;
@@ -36,7 +40,12 @@ body{
    margin-right: 20px !important;
      font-size: 100% !important;
 	}
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 6b1cec02d127db5f8c3cfad1d6d4ed0c3e94b1a6
+
 
 .horizontal{
 	list-style: none; 
@@ -250,7 +259,11 @@ section:nth-child(2n+1){
 #contact{
 	background-image: linear-gradient(to top right,darkslateblue,darkslategrey);
 }
+<<<<<<< HEAD
 /* .contact-box{
+=======
+/*.contact-box{
+>>>>>>> 6b1cec02d127db5f8c3cfad1d6d4ed0c3e94b1a6
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
@@ -274,7 +287,11 @@ section:nth-child(2n+1){
     left: 10%;
     top: -20%;
     overflow-wrap: break-word;
+<<<<<<< HEAD
 } */
+=======
+}*/
+>>>>>>> 6b1cec02d127db5f8c3cfad1d6d4ed0c3e94b1a6
 .contact-box{
 	display: flex;
 	height: 80vh;
@@ -285,7 +302,11 @@ section:nth-child(2n+1){
 }
 .contact-box-1{
 	height: 100%;
+<<<<<<< HEAD
 	width: 30%;
+=======
+	width: 40%;
+>>>>>>> 6b1cec02d127db5f8c3cfad1d6d4ed0c3e94b1a6
 }
 .contact-box-2{
 	height: 100%;
